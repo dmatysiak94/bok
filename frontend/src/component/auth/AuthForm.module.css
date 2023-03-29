@@ -1,0 +1,67 @@
+.auth {
+  margin: 7rem auto;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.auth h1 {
+  text-align: center;
+  color: #1C1B22;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: #1C1B22;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  color: white;
+  font: inherit;
+  padding: 10px;
+  border-radius: 12px;
+  width: 100%;
+  text-align: left;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: grey;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: grey;
+  border-color: darkgray;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: grey;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: darkgray;
+}

@@ -1,0 +1,73 @@
+
+.app {
+  background-color: white;
+  margin: 7rem auto;
+}
+
+.formControl input,
+.formControl label {
+  display: block;
+}
+
+.formControl label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: grey;
+}
+
+.formControl input,
+.formControl select,
+.formControl textarea{
+  font: inherit;
+  padding: 10px;
+  border-radius: 12px;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.formControl input:focus {
+  outline: none;
+  border-color: #240370;
+  background-color: #e0d4fd;
+}
+
+.formActions {
+  text-align: right;
+}
+
+.invalid input,
+.invalid textarea{
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus,
+.invalid textarea:focus{
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.errorText {
+  color: #b40e0e;
+}
+
+.textarea{
+  width: 100%;
+  height: 200px;
+}
+
+.topic {
+  width: 100%;
+}
+
+.checkbox{
+  color: gray;
+}
+
+.invalidCons {
+  color: #b40e0e;
+}
+
+.select {
+  color: grey;
+}

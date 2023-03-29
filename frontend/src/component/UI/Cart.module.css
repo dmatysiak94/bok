@@ -1,0 +1,7 @@
+.cart {
+    width: 90%;
+    max-width: 45rem;
+    padding: 1rem;
+    border-radius: 12px;
+    overflow: hidden;
+}

@@ -1,0 +1,10 @@
+.bokItem {
+    background-color: #1C1B22;
+    margin: 2rem auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.checked{
+    border: green solid 5px;
+}
